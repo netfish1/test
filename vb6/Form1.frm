@@ -8,7 +8,7 @@ Begin VB.Form Form1
    LinkTopic       =   "Form1"
    ScaleHeight     =   3030
    ScaleWidth      =   4560
-   StartUpPosition =   3  '窗口缺省
+   StartUpPosition =   2  '屏幕中心
 End
 Attribute VB_Name = "Form1"
 Attribute VB_GlobalNameSpace = False
@@ -17,6 +17,7 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Private Sub Form_Load()
 Dim i As Integer
-i = 5
-Dim j As Integer
+For i = 0 To 3
+Me.Caption = i
+Next
 End Sub
