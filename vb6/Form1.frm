@@ -18,6 +18,6 @@ Attribute VB_Exposed = False
 Private Sub Form_Load()
 Dim i As Integer
 For i = 0 To 3
-Me.Caption = i
+Me.Caption = CStr(i) & "5 3"
 Next
 End Sub
